@@ -1,0 +1,38 @@
+.europecards{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+   &__card{
+    width: 384px;
+    height: 290px;
+    border-radius: 20px;
+    position: relative;
+   }  
+   &__card:hover{
+    transition: .3s;
+    transform: translateY(-10px);
+    box-shadow: 10px 12px 20px -14px rgba(0,0,0,.75);
+    cursor: pointer;
+  }  
+  &__img{
+    width: 384px;
+    height: 290px;
+    border-radius: 20px;
+  } 
+  &__div{
+    position: absolute;
+    bottom: 0;
+    width: 384px;
+    height: 70px;
+    background: #A0A0A0;
+    mix-blend-mode: multiply;
+    border-radius:0 0 20px 20px;
+  }
+  &__title{
+    position: absolute;
+    top: 75%;
+    padding: 16px;
+    color: #FFF;
+   font-size: 28px;
+  }
+}

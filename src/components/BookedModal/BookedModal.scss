@@ -1,0 +1,28 @@
+.booked{
+    background-color: white;
+    width: 514px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 56px 56px 57px;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+    &__p{
+      color: var(--Black, #141414);
+      font-size: 40px;
+    }
+    &__btn{
+      height: 64px;
+      padding: 13px 130px;
+      border-radius: 100px;
+     background: var(--Primary, #6A62B7); 
+     border: none;
+     color: white;
+     font-size: 24px;
+     margin-top: 32px;
+    }
+}

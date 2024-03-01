@@ -1,0 +1,84 @@
+.discover{
+    &__container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    &__text{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__text__p{
+        color: var(--Black, #141414);
+        font-size: 50px;
+        margin-left: 0px;
+    }
+    &__text__arrows{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+   
+    &__btn{
+        border: 1px solid #888;
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        cursor: pointer;
+    }
+    &__prew-img{
+        width: 30px;
+        transform: rotateY(180deg);
+    }
+    &__next-img{
+        width: 30px;
+    }
+    &__list{
+        list-style: none;
+        display: flex;
+        gap: 68px;
+        margin-top: 34px;
+    }
+    &__list__li{
+        font-size: 24px;
+        cursor: pointer;
+    }
+    &__cards{
+        margin-top: 82px;
+        display: flex;
+        gap: 24px;
+    }
+    &__card{
+        width: 384px;
+        height: 290px;
+        border-radius:20px ;
+    }
+  
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .category-card {
+    margin-bottom: 20px;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: space-between;
+  }
+   
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .discover__btn:active {
+  background-color: red;
+  }

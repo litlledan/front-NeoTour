@@ -1,0 +1,13 @@
+.recommended{
+    margin-top: 148px;
+  &__container{
+    width: 1200px;
+    margin: 0 auto;
+  }  
+  &__p{
+    color: var(--Black, #141414);
+    font-size: 48px;
+    margin-left: 0px;
+  }
+  
+}

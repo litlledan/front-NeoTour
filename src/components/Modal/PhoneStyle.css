@@ -1,0 +1,22 @@
+/* Уточнение стилей для кнопки выбора страны */
+.PhoneInputCountryIcon {
+   
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* Уточнение стилей для выпадающего списка */
+  .PhoneInputCountry {
+    border-radius: 5px;
+    margin-top: 5px;
+    border: none;
+  }
+  .PhoneInputInput {
+    font-size: 16px;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
